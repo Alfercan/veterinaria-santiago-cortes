@@ -897,8 +897,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-  #urgencias-banner { font-size: .75rem; gap: .4rem; flex-wrap: wrap; }
+  #urgencias-banner { font-size: .75rem; gap: .4rem; flex-wrap: nowrap; justify-content: center; }
   .banner-sep       { display: none; }
+  .banner-note      { display: none; }
 
   #navbar           { top: 2.6rem; padding: .875rem 1.25rem; }
   #navbar.scrolled  { padding: .75rem 1.25rem; }
